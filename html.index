@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+  background-color: lightgray;
+}
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+        
+            <link rel="stylesheet"
+             href="https://fonts.googleapis.com/css?family=Font+Name">  
+               
+        p.a {
+          font-family: 'PT Sans', sans-serif;
+          font-size: 20px;
+        }
+        p.b {
+          font-family: 'PT Sans', sans-serif;
+          font-size: 18px;
+          font-weight: none;
+        }
+            .nav {
+            background-color: none;
+            list-style-type: none;
+            text-align: center; 
+            padding: 0;
+            margin: 0;
+            }
+            .nav li {
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px;
+            }
+                a:link {
+                text-decoration: none;
+                }
+                a:visited {
+                text-decoration: none;
+                }
+                a:hover {
+                text-decoration: underline;
+                }
+                a:active {
+                text-decoration: underline;
+                }
+                
+.center {
+  line-height: 330px;
+  height: 150px;
+  border: none;
+  text-align: center;
+}
+
+/* If the text has multiple lines, add the following: */
+.center p {
+  line-height: 1.5; 
+  display: inline-block;
+  vertical-align: middle;
+}
+
+                
+</style>
+</head>
+    <!--<h1 style="color:black;"><p class="a"> èvia</p> </h1>--> 
+        
+          <!--
+          <img src="billboard.jpg" style="width:30%">
+          <img src="pawa.jpg" style="width:30%">
+          <img src="mirror.jpg" style="width:30%">
+          <img src="ballance.jpg" style="width:30%">
+          <img src="window.jpg" style="width:30%">
+          -->
+          
+    <!-- 
+        </div>
+        <div class="column">
+          <img src="/w3images/underwater.jpg" style="width:100%">
+          <img src="/w3images/ocean.jpg" style="width:100%">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/mountainskies.jpg" style="width:100%">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/underwater.jpg" style="width:100%">
+        </div>  
+        <div class="column">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/falls2.jpg" style="width:100%">
+          <img src="/w3images/paris.jpg" style="width:100%">
+          <img src="/w3images/nature.jpg" style="width:100%">
+          <img src="/w3images/mist.jpg" style="width:100%">
+          <img src="/w3images/paris.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="/w3images/underwater.jpg" style="width:100%">
+          <img src="/w3images/ocean.jpg" style="width:100%">
+          <img src="/w3images/wedding.jpg" style="width:100%">
+          <img src="/w3images/mountainskies.jpg" style="width:100%">
+          <img src="/w3images/rocks.jpg" style="width:100%">
+          <img src="/w3images/underwater.jpg" style="width:100%">
+        </div>
+    -->
+    
+      <div class="center"> 
+        <img src="assets/name1.png" style="width:30%"> 
+        </div>
+ 
+<ul class ="nav"> <!-- sets classes to be inline when li applied to the line-->
+
+    <!-- paragraph class =b a (text) href (link)-->
+    <li><p><a href="https://evia.bandcamp.com/releases">
+        <img border="0" alt="music3" src="assets/music3.png" width="80" height="50"></a></p></li>
+
+    <li><p><a href="https://www.w3schools.com">
+    <img border="0" alt="artwork" src="assets/artwork.png" width="80" height="50"></a></p></li>
+
+</ul>
+<div class="center"> 
+    <img src="assets/eviatext.png" style="width:50%"> 
+    </div>
+<!--<img src="window.jpg" alt="window" width="500" height="333">-->
+  
+   
+
+  
+  <script>
+  // Get the elements with class="column"
+  var elements = document.getElementsByClassName("column");
+  
+  // Declare a loop variable
+  var i;
+  
+  // Full-width images
+  function one() {
+      for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "100%";  // IE10
+      elements[i].style.flex = "100%";
+    }
+  }
+  
+  // Two images side by side
+  function two() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "50%";  // IE10
+      elements[i].style.flex = "50%";
+    }
+  }
+  
+  // Four images side by side
+  function four() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "25%";  // IE10
+      elements[i].style.flex = "25%";
+    }
+  }
+  </script>
+  
+
+<body>
+
+</body>
+</!--center>
+</html>
+
+
+<!-- "Trebuchet MS", Helvetica, sans-serif -->
+    
+   
+
+
+
+
+<!-- j-query for animations/dropdowns etc, css (edit the way things look, colour etc, can use inline
+which is using css within html code to reference a function over and over instead of re-writing -->
+
+
+
