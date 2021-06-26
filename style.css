@@ -3,19 +3,22 @@ p {
   vertical-align: middle;
   margin: 10px 500px;
   color: lightgray;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }
 
 h1 {
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: silver;
+  font-style: italic;
 }
 
 a {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: silver;
   text-decoration: none;
+  font-style: italic;
 }
 
 .nounderline {
