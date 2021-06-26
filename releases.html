@@ -5,6 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>èvia.network</title>
   </head>
@@ -41,5 +42,29 @@
         />
       </a>
     </div>
+    
+    <video autoplay muted loop id="myVideo">
+      <source src="/images/snow.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content">
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+    
+    <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
   </body>
 </html>
